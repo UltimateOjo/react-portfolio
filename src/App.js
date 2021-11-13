@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Footer from './components/Nav';
 import Project from './components/Project/Project';
 import ContactForm from './components/Contact';
+import React, { useState } from 'react';
 
 import './App.css';
 
@@ -33,7 +34,8 @@ function App() {
           </>
         ) : (
           <ContactForm></ContactForm>
-        )}
+        )}          
+
       </main>
     </div>
   );
